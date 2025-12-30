@@ -194,6 +194,7 @@ int main(void)
           static int div_counter = 0;
           if (++div_counter >= 10) {
               div_counter = 0;
+              // Wypisujemy sformatowany tekst na terminal
               printf("STATE: %s | TEMP: %05.1f C | FAN: %d %%\r\n", state_names[current_state], temperature, fan_duty);
           }
       }

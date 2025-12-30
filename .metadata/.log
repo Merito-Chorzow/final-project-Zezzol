@@ -19,3 +19,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Adrian\
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-12-30 16:37:20.305
 !MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-12-30 17:21:14.964
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 2 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-12-30 17:21:14.964
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-12-30 17:21:14.965
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 2 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-12-30 17:21:14.965
+!MESSAGE Existing sessions are:

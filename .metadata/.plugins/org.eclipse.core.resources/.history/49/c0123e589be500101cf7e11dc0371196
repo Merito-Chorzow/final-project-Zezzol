@@ -52,18 +52,12 @@ float temperature = 0.0f;
 int fan_duty = 0;
 
 typedef enum {
-    IDLE = 0,
-    RUN,
-    FAULT
+    STATE_IDLE = 0,
+    STATE_RUN,
+    STATE_FAULT
 } system_state_t;
 
-system_state_t current_state = IDLE;
-
-const char *state_names[] = {
-    "IDLE ",  // Index 0
-    "RUN  ",  // Index 1
-    "FAULT"   // Index 2
-};
+system_state_t current_state = STATE_IDLE;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -138,7 +132,7 @@ int main(void)
 
           // --- 2. MASZYNA STANÓW (LOGIKA) ---
           switch (current_state) {
-              case IDLE:
+              case STATE_IDLE:
                   fan_duty = 0;
 
                   // LED CZERWONA: OFF
@@ -151,10 +145,10 @@ int main(void)
                        HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_RESET);
 
                   // Warunek przejścia: Temperatura rośnie
-                  if (temperature > 30.0f) current_state = RUN;
+                  if (temperature > 30.0f) current_state = STATE_RUN;
                   break;
 
-              case RUN:
+              case STATE_RUN:
                   // LED ZIELONA: Świeci ciągle (Praca)
                   HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_SET);
 
@@ -164,11 +158,11 @@ int main(void)
                   if (fan_duty < 0) fan_duty = 0;
 
                   // Warunki przejścia
-                  if (temperature < 28.0f) current_state = IDLE; // Histereza
-                  if (temperature > 75.0f) current_state = FAULT; // Przegrzanie
+                  if (temperature < 28.0f) current_state = STATE_IDLE; // Histereza
+                  if (temperature > 75.0f) current_state = STATE_FAULT; // Przegrzanie
                   break;
 
-              case FAULT:
+              case STATE_FAULT:
                   fan_duty = 0; // Wyłączamy wiatrak (lub 100% zależnie od strategii bezp.)
 
                   // LED ZIELONA: OFF
@@ -183,7 +177,7 @@ int main(void)
                   // Wyjście z błędu: Tylko przycisk USER (niebieski)
                   // Zakładam, że BTN_USER_GPIO_Port to GPIOA (standard w Discovery)
                   if (HAL_GPIO_ReadPin(BTN_USER_GPIO_Port, BTN_USER_Pin) == GPIO_PIN_SET) {
-                      current_state = IDLE;
+                      current_state = STATE_IDLE;
                       HAL_Delay(200); // Prosty debouncing
                   }
                   break;
@@ -194,7 +188,9 @@ int main(void)
           static int div_counter = 0;
           if (++div_counter >= 10) {
               div_counter = 0;
-              printf("STATE: %s | TEMP: %05.1f C | FAN: %d %%\r\n", state_names[current_state], temperature, fan_duty);
+              // Wypisujemy sformatowany tekst na terminal
+              printf("STATE: %d | TEMP: %05.1f C | FAN: %d %%\r\n",
+                      current_state, temperature, fan_duty);
           }
       }
       /* USER CODE END WHILE */
