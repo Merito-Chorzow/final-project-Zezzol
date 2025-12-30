@@ -1,0 +1,16 @@
+16:44:37 **** Incremental Build of configuration Debug for project Projekt_PN ****
+make -j20 all 
+arm-none-eabi-gcc -o "Projekt_PN.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Projekt_PN.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Projekt_PN.elf
+ 
+arm-none-eabi-size  Projekt_PN.elf 
+arm-none-eabi-objdump -h -S Projekt_PN.elf  > "Projekt_PN.list"
+   text	   data	    bss	    dec	    hex	filename
+  25972	    468	   2076	  28516	   6f64	Projekt_PN.elf
+Finished building: default.size.stdout
+ 
+Finished building: Projekt_PN.list
+ 
+
+16:44:38 Build Finished. 0 errors, 0 warnings. (took 386ms)
+

@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,7 +46,18 @@ ADC_HandleTypeDef hadc1;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
+uint32_t last_tick = 0;
+uint32_t raw_adc = 0;
+float temperature = 0.0f;
+int fan_duty = 0;
 
+typedef enum {
+    STATE_IDLE = 0,
+    STATE_RUN,
+    STATE_FAULT
+} system_state_t;
+
+system_state_t current_state = STATE_IDLE;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -99,9 +111,89 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
+
+    // Komunikat startowy (pojawia się po resecie)
+    printf("\r\n--- STM32 FAN CONTROLLER START ---\r\n");
+
+    while (1)
+    {
+      // Scheduler: Pętla wykonuje się co 50ms
+      if (HAL_GetTick() - last_tick > 50)
+      {
+          last_tick = HAL_GetTick();
+
+          // --- 1. ODCZYT SENSORA (POTENCJOMETR) ---
+          HAL_ADC_Start(&hadc1);
+          if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK) {
+              raw_adc = HAL_ADC_GetValue(&hadc1);
+              // Skalowanie: 0-4095 -> 0-100 stopni Celsjusza
+              temperature = (float)raw_adc * 100.0f / 4095.0f;
+          }
+
+          // --- 2. MASZYNA STANÓW (LOGIKA) ---
+          switch (current_state) {
+              case STATE_IDLE:
+                  fan_duty = 0;
+
+                  // LED CZERWONA: OFF
+                  HAL_GPIO_WritePin(GPIOG, LED_RED_Pin, GPIO_PIN_RESET);
+
+                  // LED ZIELONA: Miga rzadko (Heartbeat - system żyje)
+                  if ((HAL_GetTick() % 1000) < 100)
+                       HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_SET);
+                  else
+                       HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_RESET);
+
+                  // Warunek przejścia: Temperatura rośnie
+                  if (temperature > 30.0f) current_state = STATE_RUN;
+                  break;
+
+              case STATE_RUN:
+                  // LED ZIELONA: Świeci ciągle (Praca)
+                  HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_SET);
+
+                  // Algorytm sterowania (Prosty regulator)
+                  fan_duty = (int)((temperature - 30.0f) * 3.0f);
+                  if (fan_duty > 100) fan_duty = 100;
+                  if (fan_duty < 0) fan_duty = 0;
+
+                  // Warunki przejścia
+                  if (temperature < 28.0f) current_state = STATE_IDLE; // Histereza
+                  if (temperature > 75.0f) current_state = STATE_FAULT; // Przegrzanie
+                  break;
+
+              case STATE_FAULT:
+                  fan_duty = 0; // Wyłączamy wiatrak (lub 100% zależnie od strategii bezp.)
+
+                  // LED ZIELONA: OFF
+                  HAL_GPIO_WritePin(GPIOG, LED_GREEN_Pin, GPIO_PIN_RESET);
+
+                  // LED CZERWONA: Miga szybko (ALARM)
+                  if ((HAL_GetTick() % 200) < 100)
+                       HAL_GPIO_WritePin(GPIOG, LED_RED_Pin, GPIO_PIN_SET);
+                  else
+                       HAL_GPIO_WritePin(GPIOG, LED_RED_Pin, GPIO_PIN_RESET);
+
+                  // Wyjście z błędu: Tylko przycisk USER (niebieski)
+                  // Zakładam, że BTN_USER_GPIO_Port to GPIOA (standard w Discovery)
+                  if (HAL_GPIO_ReadPin(BTN_USER_GPIO_Port, BTN_USER_Pin) == GPIO_PIN_SET) {
+                      current_state = STATE_IDLE;
+                      HAL_Delay(200); // Prosty debouncing
+                  }
+                  break;
+          }
+
+          // --- 3. TELEMETRIA (UART) ---
+          // Wysyłamy dane co ok. 500ms (co 10 cykl pętli)
+          static int div_counter = 0;
+          if (++div_counter >= 10) {
+              div_counter = 0;
+              // Wypisujemy sformatowany tekst na terminal
+              printf("STATE: %d | TEMP: %05.1f C | FAN: %d %%\r\n",
+                      current_state, temperature, fan_duty);
+          }
+      }
+      /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
@@ -285,7 +377,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+int _write(int file, char *ptr, int len) {
+    HAL_UART_Transmit(&huart1, (uint8_t*)ptr, len, 100);
+    return len;
+}
 /* USER CODE END 4 */
 
 /**
