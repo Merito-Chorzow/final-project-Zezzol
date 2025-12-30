@@ -602,3 +602,323 @@
 2025-12-30 16:10:41,271 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
 2025-12-30 16:10:41,274 [INFO] ApiDb:448 - Save user favorites file C:\Users\Adrian/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2025-12-30 16:10:41,274 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-12-30 16:15:53,293 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 883037032 Bytes (1073741824)
+2025-12-30 16:15:55,954 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 960067544 Bytes (1073741824)
+2025-12-30 16:15:56,126 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-30 16:15:56,126 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-30 16:15:56,126 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-30 16:15:56,127 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-30 16:15:56,127 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-12-30 16:15:56,190 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp_save
+2025-12-30 16:15:56,291 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp
+2025-12-30 16:15:56,303 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp_save
+2025-12-30 16:15:56,365 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp
+2025-12-30 16:15:56,380 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c_save
+2025-12-30 16:15:56,429 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c
+2025-12-30 16:15:56,434 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h_save
+2025-12-30 16:15:56,471 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h
+2025-12-30 16:15:56,480 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c_save
+2025-12-30 16:15:56,537 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c
+2025-12-30 16:15:56,540 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp_save
+2025-12-30 16:15:56,578 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp
+2025-12-30 16:15:56,589 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-12-30 16:15:56,623 [INFO] CodeEngine:345 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h
+2025-12-30 16:15:56,637 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h_save
+2025-12-30 16:15:56,676 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h
+2025-12-30 16:15:56,680 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c_save
+2025-12-30 16:15:56,734 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c
+2025-12-30 16:15:56,907 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 94mS.
+2025-12-30 16:15:56,909 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-30 16:15:56,946 [INFO] ConfigFileManager:1595 - The Die is : DIE419
+2025-12-30 16:15:57,476 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 566mS.
+2025-12-30 16:15:57,476 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:15:57,478 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:20:26,226 [INFO] ParamManager:905 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2025-12-30 16:20:26,240 [INFO] ParamManager:905 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2025-12-30 16:20:26,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,279 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,279 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,279 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,279 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,279 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,280 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,280 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,286 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,355 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-30 16:20:26,429 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-30 16:20:26,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,484 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,507 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,507 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,508 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:26,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,427 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,427 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,427 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,428 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:20:43,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:21:11,508 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 808905136 Bytes (1073741824)
+2025-12-30 16:21:14,427 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844623240 Bytes (1073741824)
+2025-12-30 16:21:14,802 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 893318280 Bytes (1073741824)
+2025-12-30 16:21:15,034 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-30 16:21:15,035 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-12-30 16:21:15,035 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-30 16:21:15,035 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-30 16:21:15,035 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-30 16:21:15,036 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-12-30 16:21:15,099 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp_save
+2025-12-30 16:21:15,196 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp
+2025-12-30 16:21:15,214 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp_save
+2025-12-30 16:21:15,262 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp
+2025-12-30 16:21:15,311 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c_save
+2025-12-30 16:21:15,368 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c
+2025-12-30 16:21:15,373 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h_save
+2025-12-30 16:21:15,411 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h
+2025-12-30 16:21:15,421 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c_save
+2025-12-30 16:21:15,488 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c
+2025-12-30 16:21:15,491 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp_save
+2025-12-30 16:21:15,528 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp
+2025-12-30 16:21:15,539 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-12-30 16:21:15,581 [INFO] CodeEngine:345 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h
+2025-12-30 16:21:15,594 [INFO] ApiDbMcu:532 - Load IP Config File for ADC1
+2025-12-30 16:21:15,601 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h_save
+2025-12-30 16:21:15,640 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h
+2025-12-30 16:21:15,647 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c_save
+2025-12-30 16:21:15,710 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c
+2025-12-30 16:21:15,897 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 109mS.
+2025-12-30 16:21:15,899 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-30 16:21:15,951 [INFO] ConfigFileManager:1595 - The Die is : DIE419
+2025-12-30 16:21:16,493 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 593mS.
+2025-12-30 16:21:16,493 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:21:16,495 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:23:21,696 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,698 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,699 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,751 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:21,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,683 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,703 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,705 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:23:48,718 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,465 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,466 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,484 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,504 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:25:38,517 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:27:45,142 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 945446896 Bytes (1073741824)
+2025-12-30 16:27:45,258 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 678973800 Bytes (1073741824)
+2025-12-30 16:27:45,688 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 717748552 Bytes (1073741824)
+2025-12-30 16:27:45,913 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-30 16:27:45,914 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-12-30 16:27:45,914 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-30 16:27:45,914 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-30 16:27:45,915 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-30 16:27:45,915 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-12-30 16:27:45,975 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp_save
+2025-12-30 16:27:46,102 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp
+2025-12-30 16:27:46,116 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp_save
+2025-12-30 16:27:46,167 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp
+2025-12-30 16:27:46,197 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c_save
+2025-12-30 16:27:46,249 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c
+2025-12-30 16:27:46,256 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h_save
+2025-12-30 16:27:46,307 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h
+2025-12-30 16:27:46,321 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c_save
+2025-12-30 16:27:46,390 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c
+2025-12-30 16:27:46,395 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp_save
+2025-12-30 16:27:46,429 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp
+2025-12-30 16:27:46,436 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-12-30 16:27:46,472 [INFO] CodeEngine:345 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h
+2025-12-30 16:27:46,493 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h_save
+2025-12-30 16:27:46,532 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h
+2025-12-30 16:27:46,536 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c_save
+2025-12-30 16:27:46,599 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c
+2025-12-30 16:27:46,814 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 110mS.
+2025-12-30 16:27:46,816 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-30 16:27:46,865 [INFO] ConfigFileManager:1595 - The Die is : DIE419
+2025-12-30 16:27:47,411 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 594mS.
+2025-12-30 16:27:47,411 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:27:47,413 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:29:50,951 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x446,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-30 16:30:06,235 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 985422296 Bytes (1073741824)
+2025-12-30 16:30:06,291 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 684035072 Bytes (1073741824)
+2025-12-30 16:30:06,563 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 726420936 Bytes (1073741824)
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-12-30 16:30:06,682 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-30 16:30:06,683 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-12-30 16:30:06,730 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp_save
+2025-12-30 16:30:06,853 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\license.tmp
+2025-12-30 16:30:06,866 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp_save
+2025-12-30 16:30:06,914 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\gpio.tmp
+2025-12-30 16:30:06,975 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c_save
+2025-12-30 16:30:07,019 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_it.c
+2025-12-30 16:30:07,023 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h_save
+2025-12-30 16:30:07,059 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_it.h
+2025-12-30 16:30:07,069 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c_save
+2025-12-30 16:30:07,124 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\stm32f4xx_hal_msp.c
+2025-12-30 16:30:07,127 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp_save
+2025-12-30 16:30:07,159 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\MXTmpFiles\system.tmp
+2025-12-30 16:30:07,168 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-12-30 16:30:07,205 [INFO] CodeEngine:345 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\stm32f4xx_hal_conf.h
+2025-12-30 16:30:07,221 [INFO] ApiDbMcu:532 - Load IP Config File for USART1
+2025-12-30 16:30:07,231 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h_save
+2025-12-30 16:30:07,266 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Inc\main.h
+2025-12-30 16:30:07,271 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c_save
+2025-12-30 16:30:07,345 [INFO] CodeEngine:289 - Generated code: C:\Users\Adrian\Desktop\final-project-Zezzol\Projekt_PN\Core\Src\main.c
+2025-12-30 16:30:07,545 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 93mS.
+2025-12-30 16:30:07,547 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-30 16:30:07,585 [INFO] ConfigFileManager:1595 - The Die is : DIE419
+2025-12-30 16:30:07,992 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 445mS.
+2025-12-30 16:30:07,993 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-12-30 16:30:07,994 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-30 16:31:08,011 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,011 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,011 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,012 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,012 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,012 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,013 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,013 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,013 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,014 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,014 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,014 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,015 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,016 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,043 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,069 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,069 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,069 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 16:31:08,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-12-30 17:42:13,341 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
